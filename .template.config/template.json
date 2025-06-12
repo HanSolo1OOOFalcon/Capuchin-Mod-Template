@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "HanSolo1000Falcon",
+  "classifications": [ "Library", "C#" ],
+  "identity": "org.hansolo1000falcon.caputemp",
+  "name": "Capuchin Mod Template",
+  "shortName": "capu-temp",
+  "sourceName": "CapuchinTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "modName": {
+      "type": "parameter",
+      "dataType": "string",
+      "defaultValue": "MyCapuchinMod",
+      "description": "The name of your Capuchin mod.",
+      "replaces": "MODNAMEREPLACEMEPLEASE"
+    },
+    "modGUID": {
+        "type": "parameter",
+        "dataType": "string",
+        "defaultValue": "yourname.modname",
+        "description": "The GUID of your Capuchin mod. (must be lowercase, no spaces, no special characters)",
+        "replaces": "MODGUIDREPLACEMEPLEASE"
+    },
+    "gamePath": {
+      "type": "parameter",
+      "dataType": "string",
+      "defaultValue": "",
+      "description": "The path to your Capuchin game installation.",
+      "replaces": "GAMEPATHREPLACEMEPLEASE"
+    }
+  }
+}
